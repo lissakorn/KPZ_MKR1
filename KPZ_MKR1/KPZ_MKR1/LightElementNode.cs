@@ -92,5 +92,36 @@ namespace KPZ_MKR1
         {
             Console.WriteLine($"[Hook] Життєвий цикл: Елемент <{TagName}> було вставлено в дерево.");
         }
+
+
+        public IEnumerable<LightNode> GetDepthFirstIterator()
+        {
+            yield return this;
+            foreach (var child in _children)
+            {
+                if (child is LightElementNode elementNode)
+                {
+                    foreach (var node in elementNode.GetDepthFirstIterator()) yield return node;
+                }
+                else yield return child;
+            }
+        }
+
+        public IEnumerable<LightNode> GetBreadthFirstIterator()
+        {
+            Queue<LightNode> queue = new Queue<LightNode>();
+            queue.Enqueue(this);
+
+            while (queue.Count > 0)
+            {
+                var current = queue.Dequeue();
+                yield return current;
+
+                if (current is LightElementNode elementNode)
+                {
+                    foreach (var child in elementNode._children) queue.Enqueue(child);
+                }
+            }
+        }
     }
 }
