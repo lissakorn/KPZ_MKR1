@@ -58,6 +58,25 @@ class Program
         Console.WriteLine("\n2. Змінюємо стан на Hidden:");
         testElement.State = new HiddenState(); 
         Console.WriteLine(testElement.RenderWithState());
+
+
+        Console.WriteLine("\n--- ТЕСТ ПАТЕРНУ: COMMAND (Undo/Redo) ---");
+
+        var manager = new CommandManager();
+        var root = new LightElementNode("div", DisplayType.Block, ClosureType.Paired);
+        var newNode = new LightElementNode("p", DisplayType.Block, ClosureType.Paired);
+        newNode.AddChild(new LightTextNode("Цей текст був доданий командою"));
+
+ 
+        var addCommand = new AddNodeCommand(root, newNode);
+        manager.ExecuteCommand(addCommand);
+
+        Console.WriteLine("Пілля виконання команди:");
+        Console.WriteLine(root.Render());
+
+        manager.Undo();
+        Console.WriteLine("\nПісля відміни команди (Undo):");
+        Console.WriteLine(root.Render());
     }
 
 
