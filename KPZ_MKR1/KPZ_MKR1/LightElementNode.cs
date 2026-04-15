@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace KPZ_MKR1
 {
-    using System.Collections.Generic;
-    using System.Text;
-    using static KPZ_MKR1.Enum;
-
     public class LightElementNode : LightNode
     {
         public string TagName { get; set; }
