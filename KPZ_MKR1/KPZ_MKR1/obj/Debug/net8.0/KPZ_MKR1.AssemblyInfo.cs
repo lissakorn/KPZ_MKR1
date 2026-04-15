@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KPZ_MKR1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af405357c43b47d3e94747d1e92d8caa6ba85370")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1702643122d06a387f6e8fa2d4524e93b9d44c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("KPZ_MKR1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KPZ_MKR1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
