@@ -12,3 +12,4 @@ D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\refint\KP
 D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.pdb
 D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.genruntimeconfig.cache
 D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\ref\KPZ_MKR1.dll
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.sourcelink.json

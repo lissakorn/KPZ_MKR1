@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace KPZ_MKR1
 {
+
     public class LightTextNode : LightNode
     {
         private string _text;
@@ -15,7 +16,16 @@ namespace KPZ_MKR1
             _text = text;
         }
 
-        public override string OuterHTML => _text;
+        protected override string BuildHTML()
+        {
+            return _text;
+        }
+
         public override string InnerHTML => _text;
+
+        public override void OnTextRendered()
+        {
+            Console.WriteLine($"[Hook] Текст успішно відрендерено: \"{_text}\"");
+        }
     }
 }

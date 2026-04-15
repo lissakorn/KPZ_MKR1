@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace KPZ_MKR1
 {
-    using System.Collections.Generic;
-    using System.Text;
-    using static KPZ_MKR1.Enum;
 
     public class LightElementNode : LightNode
     {
@@ -30,11 +27,13 @@ namespace KPZ_MKR1
         public void AddChild(LightNode node)
         {
             _children.Add(node);
+            node.OnInserted(); 
         }
 
         public void RemoveChild(LightNode node)
         {
             _children.Remove(node);
+            node.OnRemoved();
         }
 
         public int ChildrenCount => _children.Count;
@@ -52,31 +51,46 @@ namespace KPZ_MKR1
             }
         }
 
-        public override string OuterHTML
+        protected override string BuildHTML()
         {
-            get
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"<{TagName}");
+
+            if (CssClasses.Count > 0)
             {
-                StringBuilder sb = new StringBuilder();
-                sb.Append($"<{TagName}");
-
-                if (CssClasses.Count > 0)
-                {
-                    sb.Append($" class=\"{string.Join(" ", CssClasses)}\"");
-                }
-
-                if (ClosureType == ClosureType.Single)
-                {
-                    sb.Append(" />");
-                }
-                else
-                {
-                    sb.Append(">");
-                    sb.Append(InnerHTML);
-                    sb.Append($"</{TagName}>");
-                }
-
-                return sb.ToString();
+                sb.Append($" class=\"{string.Join(" ", CssClasses)}\"");
             }
+
+            if (ClosureType == ClosureType.Single)
+            {
+                sb.Append(" />");
+            }
+            else
+            {
+                sb.Append(">");
+                sb.Append(InnerHTML);
+                sb.Append($"</{TagName}>");
+            }
+
+            return sb.ToString();
+        }
+
+        public override void OnCreated()
+        {
+            Console.WriteLine($"[Hook] Життєвий цикл: Елемент <{TagName}> почав рендеринг.");
+        }
+
+        public override void OnClassListApplied()
+        {
+            if (CssClasses.Count > 0)
+            {
+                Console.WriteLine($"[Hook] Життєвий цикл: До <{TagName}> застосовано класи ({string.Join(", ", CssClasses)}).");
+            }
+        }
+
+        public override void OnInserted()
+        {
+            Console.WriteLine($"[Hook] Життєвий цикл: Елемент <{TagName}> було вставлено в дерево.");
         }
     }
 }
