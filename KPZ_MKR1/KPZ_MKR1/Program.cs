@@ -45,6 +45,19 @@ class Program
             else
                 Console.WriteLine($"Знайдено текст: {node.OuterHTML}");
         }
+
+
+        Console.WriteLine("\n--- ТЕСТ ПАТЕРНУ: STATE ---");
+
+        var testElement = new LightElementNode("div", DisplayType.Block, ClosureType.Paired);
+        testElement.AddChild(new LightTextNode("Я видимий текст"));
+
+        Console.WriteLine("1. Стан за замовчуванням (Normal):");
+        Console.WriteLine(testElement.RenderWithState());
+
+        Console.WriteLine("\n2. Змінюємо стан на Hidden:");
+        testElement.State = new HiddenState(); 
+        Console.WriteLine(testElement.RenderWithState());
     }
 
 
