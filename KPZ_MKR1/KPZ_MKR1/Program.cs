@@ -1,7 +1,7 @@
 ﻿using KPZ_MKR1;
 using System;
 using System.Collections.Generic;
-using static KPZ_MKR1.Enum;
+
 
 class Program
 {

@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace KPZ_MKR1
 {
-    public class Enum
-    {
         public enum DisplayType
         {
             Block,
@@ -19,5 +17,5 @@ namespace KPZ_MKR1
             Single,
             Paired
         }
-    }
+
 }
