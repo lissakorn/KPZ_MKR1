@@ -1,0 +1,14 @@
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\bin\Debug\net8.0\KPZ_MKR1.exe
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\bin\Debug\net8.0\KPZ_MKR1.deps.json
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\bin\Debug\net8.0\KPZ_MKR1.runtimeconfig.json
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\bin\Debug\net8.0\KPZ_MKR1.dll
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\bin\Debug\net8.0\KPZ_MKR1.pdb
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.AssemblyInfoInputs.cache
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.AssemblyInfo.cs
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.dll
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\refint\KPZ_MKR1.dll
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.pdb
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\KPZ_MKR1.genruntimeconfig.cache
+D:\UNIVERSITY\Course_2\Semestr2\KPZ\KPZ_MKR1\KPZ_MKR1\obj\Debug\net8.0\ref\KPZ_MKR1.dll
