@@ -30,5 +30,11 @@ namespace KPZ_MKR1
 
         public string OuterHTML => Render();
         public abstract string InnerHTML { get; }
+        public INodeState State { get; set; } = new NormalState();
+
+        public string RenderWithState()
+        {
+            return State.Render(this);
+        }
     }
 }
