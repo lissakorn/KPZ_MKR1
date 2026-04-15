@@ -26,5 +26,27 @@ class Program
         Console.WriteLine("--- РЕЗУЛЬТАТ РОБОТИ LightHTML ---");
         Console.WriteLine(ul.OuterHTML);
         Console.WriteLine($"\nКількість дочірніх елементів у списку (ul): {ul.ChildrenCount}");
+
+
+        Console.WriteLine("\n--- ТЕСТ ІТЕРАТОРА (ОБХІД У ГЛИБИНУ - DFS) ---");
+        foreach (var node in ul.GetDepthFirstIterator())
+        {
+            if (node is LightElementNode element)
+                Console.WriteLine($"Знайдено тег: <{element.TagName}>");
+            else
+                Console.WriteLine($"Знайдено текст: {node.OuterHTML}");
+        }
+
+        Console.WriteLine("\n--- ТЕСТ ІТЕРАТОРА (ОБХІД У ШИРИНУ - BFS) ---");
+        foreach (var node in ul.GetBreadthFirstIterator()) 
+        {
+            if (node is LightElementNode element)
+                Console.WriteLine($"Знайдено тег: <{element.TagName}>");
+            else
+                Console.WriteLine($"Знайдено текст: {node.OuterHTML}");
+        }
     }
+
+
+
 }

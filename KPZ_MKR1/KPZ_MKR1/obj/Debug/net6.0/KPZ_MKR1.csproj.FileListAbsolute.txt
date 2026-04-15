@@ -1,0 +1,15 @@
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\bin\Debug\net6.0\KPZ_MKR1.exe
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\bin\Debug\net6.0\KPZ_MKR1.deps.json
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\bin\Debug\net6.0\KPZ_MKR1.runtimeconfig.json
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\bin\Debug\net6.0\KPZ_MKR1.dll
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\bin\Debug\net6.0\ref\KPZ_MKR1.dll
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\bin\Debug\net6.0\KPZ_MKR1.pdb
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.csproj.AssemblyReference.cache
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.AssemblyInfoInputs.cache
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.AssemblyInfo.cs
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.csproj.CoreCompileInputs.cache
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.dll
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\ref\KPZ_MKR1.dll
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.pdb
+C:\Users\ipz241_pyei\mkr1\KPZ_MKR1\KPZ_MKR1\KPZ_MKR1\obj\Debug\net6.0\KPZ_MKR1.genruntimeconfig.cache
