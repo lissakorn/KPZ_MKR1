@@ -27,5 +27,9 @@ namespace KPZ_MKR1
         {
             Console.WriteLine($"[Hook] Текст успішно відрендерено: \"{_text}\"");
         }
+        public override void Accept(IVisitor visitor)
+        {
+            visitor.VisitTextNode(this);
+        }
     }
 }

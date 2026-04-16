@@ -27,7 +27,7 @@ namespace KPZ_MKR1
         public virtual void OnTextRendered() { }
 
         protected abstract string BuildHTML();
-
+        public abstract void Accept(IVisitor visitor);
         public string OuterHTML => Render();
         public abstract string InnerHTML { get; }
         public INodeState State { get; set; } = new NormalState();

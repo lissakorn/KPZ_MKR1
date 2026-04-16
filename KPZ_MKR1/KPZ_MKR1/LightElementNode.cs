@@ -123,5 +123,13 @@ namespace KPZ_MKR1
                 }
             }
         }
+        public override void Accept(IVisitor visitor)
+        {
+            visitor.VisitElementNode(this);
+            foreach (var child in _children)
+            {
+                child.Accept(visitor);
+            }
+        }
     }
 }
