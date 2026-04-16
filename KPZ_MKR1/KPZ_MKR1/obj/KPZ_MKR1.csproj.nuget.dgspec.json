@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ipz241_pyei\\mkr1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj": {}
+    "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ipz241_pyei\\mkr1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj": {
+    "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ipz241_pyei\\mkr1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj",
+        "projectUniqueName": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj",
         "projectName": "KPZ_MKR1",
-        "projectPath": "C:\\Users\\ipz241_pyei\\mkr1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj",
-        "packagesPath": "C:\\Users\\ipz241_pyei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ipz241_pyei\\mkr1\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1\\obj\\",
+        "projectPath": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\KPZ_MKR1.csproj",
+        "packagesPath": "C:\\Users\\Лі\\.nuget\\packages\\",
+        "outputPath": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ipz241_pyei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Лі\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -45,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

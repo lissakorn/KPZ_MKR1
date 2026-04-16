@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\nodecountvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\nodecountvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\ivisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\ivisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|d:\\university\\course_2\\semestr2\\kpz\\kpz_mkr1\\kpz_mkr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB32F27F-6169-4A61-A825-F1B37E1C7378}|KPZ_MKR1\\KPZ_MKR1.csproj|solutionrelative:kpz_mkr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 154,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +54,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "NodeCountVisitor.cs",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\NodeCountVisitor.cs",
+              "RelativeDocumentMoniker": "KPZ_MKR1\\NodeCountVisitor.cs",
+              "ToolTip": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\NodeCountVisitor.cs",
+              "RelativeToolTip": "KPZ_MKR1\\NodeCountVisitor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T14:32:24.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVisitor.cs",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\IVisitor.cs",
+              "RelativeDocumentMoniker": "KPZ_MKR1\\IVisitor.cs",
+              "ToolTip": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\IVisitor.cs",
+              "RelativeToolTip": "KPZ_MKR1\\IVisitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T14:32:07.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LightElementNode.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\LightElementNode.cs",
               "RelativeDocumentMoniker": "KPZ_MKR1\\LightElementNode.cs",
               "ToolTip": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\LightElementNode.cs",
               "RelativeToolTip": "KPZ_MKR1\\LightElementNode.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAA0wF0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAmwIMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T06:34:21.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Enum.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\Enum.cs",
               "RelativeDocumentMoniker": "KPZ_MKR1\\Enum.cs",
@@ -71,40 +105,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\Program.cs",
               "RelativeDocumentMoniker": "KPZ_MKR1\\Program.cs",
               "ToolTip": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\Program.cs",
               "RelativeToolTip": "KPZ_MKR1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T06:31:09.827Z"
+              "WhenOpened": "2026-04-15T06:31:09.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LightNode.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\LightNode.cs",
               "RelativeDocumentMoniker": "KPZ_MKR1\\LightNode.cs",
               "ToolTip": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\LightNode.cs",
               "RelativeToolTip": "KPZ_MKR1\\LightNode.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T06:33:22.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LightTextNode.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\LightTextNode.cs",
               "RelativeDocumentMoniker": "KPZ_MKR1\\LightTextNode.cs",
               "ToolTip": "D:\\UNIVERSITY\\Course_2\\Semestr2\\KPZ\\KPZ_MKR1\\KPZ_MKR1\\LightTextNode.cs",
               "RelativeToolTip": "KPZ_MKR1\\LightTextNode.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T06:34:01.176Z"
+              "WhenOpened": "2026-04-15T06:34:01.176Z",
+              "EditorCaption": ""
             }
           ]
         }

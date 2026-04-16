@@ -77,6 +77,27 @@ class Program
         manager.Undo();
         Console.WriteLine("\nПісля відміни команди (Undo):");
         Console.WriteLine(root.Render());
+
+
+        Console.WriteLine("\n--- ТЕСТ ПАТЕРНУ: VISITOR ---");
+
+        var htmlTree = new LightElementNode("html", DisplayType.Block, ClosureType.Paired);
+        var body = new LightElementNode("body", DisplayType.Block, ClosureType.Paired);
+        var h1 = new LightElementNode("h1", DisplayType.Block, ClosureType.Paired);
+
+        h1.AddChild(new LightTextNode("Головний заголовок"));
+        body.AddChild(h1);
+        body.AddChild(new LightTextNode("Просто текст у body"));
+        htmlTree.AddChild(body);
+
+        var counterVisitor = new NodeCountVisitor();
+
+        
+        htmlTree.Accept(counterVisitor);
+
+        Console.WriteLine($"Знайдено HTML-тегів (LightElementNode): {counterVisitor.ElementCount}");
+        Console.WriteLine($"Знайдено текстових вузлів (LightTextNode): {counterVisitor.TextCount}");
+       
     }
 
 
